@@ -15,6 +15,14 @@
             $peso = 70.5;
             //boolean
             $fumante_sn = false; //(true = 1) ou (false = 0)
+
+            //...lógica do sistema...//
+
+            $idade = $idade + 1; //37
+
+            $peso = $peso + 25; //95.5
+            
+            
         ?>
 
 
