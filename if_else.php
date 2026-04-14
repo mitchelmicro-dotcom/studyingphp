@@ -19,13 +19,9 @@
 
                echo '8 diferente de 8';
 
-           } 
+           }             
             
-            
-        ?>
-
-
-    
+        ?>   
 		
     </body>
 
