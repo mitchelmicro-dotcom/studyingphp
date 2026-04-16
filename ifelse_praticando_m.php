@@ -9,7 +9,7 @@
         <?php
            //
            $usuario_possui_cartao_loja = true;
-           $valor_compra = 450;
+           $valor_compra = 1000;
 
            $valor_frete = 50;
            $recebeu_desconto_frete = true;
@@ -32,12 +32,20 @@
            <h1> Detalhes do pedido </h1>
 
            <p> Possui cartão da loja?
+
+           <? echo $usuario_possui_cartao_loja ? 'SIM' : 'NÃO'; ?>
+
+
                 <?php
+                        // <condição> ? <true> : <false>
+
+                        /*  
                       if ($usuario_possui_cartao_loja) {
                             echo 'Sim';
                       } else {
                             echo 'Não';
                       }
+                        */
                 ?> 
             </p>
             
@@ -45,11 +53,16 @@
 
             <p>Recebeu desconto no frete ?
                 <?php
+
+                        $teste = $recebeu_desconto_frete ? 'SIM' : 'NÃO';
+                        echo $teste;
+                  /* 
                       if ($usuario_possui_cartao_loja) {
                             echo 'Sim';
                       } else {
                             echo 'Não';
                       }
+                  */
                 ?> 
             </p>
 
