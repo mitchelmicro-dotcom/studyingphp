@@ -25,7 +25,7 @@
                 // O count() torna o código mais dinâmico que o "3" fixo
                 while($idx < count($registros)){
 
-                    echo '<div class="card mb-3 shadow-sm">';
+                    echo '<div class="card mb-2 shadow-sm">';
                         // Cabeçalho do Card (parte azulada na imagem)
                         echo '<div class="card-header bg-primary text-white">';
                             echo $registros[$idx]['titulo'];
